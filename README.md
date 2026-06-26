@@ -1,77 +1,233 @@
-🚚 Blinkit Data Analysis Dashboard (Power BI)
-📊 Overview
-This project showcases an interactive Power BI Dashboard for Blinkit, one of India’s leading instant delivery platforms. The dashboard visualizes key metrics such as order trends, delivery availability, average costs, ratings, and customer behavior to provide meaningful business insights.
+# 🛒 Blinkit Sales Analysis Dashboard | Power BI
 
-📁 Dataset
-The data used in this project includes:
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Measures-blue)
+![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-Store and Location Information
+---
 
-Product Categories and Sales
+# 📌 Project Overview
 
-Delivery Type and Availability
+The **Blinkit Sales Analysis Dashboard** is an interactive Business Intelligence solution developed using **Power BI**, **DAX**, and **Power Query** to analyze retail sales performance, outlet characteristics, customer ratings, inventory distribution, and product category performance.
 
-Customer Ratings and Reviews
+The dashboard transforms raw grocery sales data into meaningful business insights that support strategic decision-making for retail operations.
 
-Order Volumes and Revenue
+---
 
-Date and Time Dimensions
+# 📸 Dashboard Preview
 
-🔧 Tools & Techniques Used
-Power BI Desktop
+The dashboard provides an interactive overview of sales performance, outlet establishment trends, outlet size, product categories, customer ratings, and inventory insights.
 
-Data Modeling with Relationships
+![Blinkit Dashboard](Images/Blinkit_Dashboard.png)
 
-Power Query Editor for Cleaning and Transformation
+---
 
-DAX (Data Analysis Expressions)
+# 🎯 Business Problem
 
-Calendar Table for Time Intelligence
+Retail businesses generate large volumes of transactional data across different outlet types, product categories, and locations.
 
-Interactive Visuals: Slicers, Cards, Bar/Line/Map Charts
+Business leaders need an interactive reporting solution to monitor performance and answer questions such as:
 
-📌 Key Features of the Dashboard
-🚛 % of Orders with Delivery Option
+- Which outlet type generates the highest sales?
+- Which item categories contribute the most revenue?
+- How does outlet size affect sales?
+- Which outlet locations perform best?
+- How has outlet establishment changed over time?
+- Which products receive higher customer ratings?
 
-🛒 Top Categories by Sales
+---
 
-🏬 Store-wise and City-wise Performance
+# 📂 Dataset Overview
 
-💰 Total Revenue, Average Order Value, and Order Count
+| Property | Details |
+|----------|----------|
+| Dataset | BlinkIT Grocery Sales |
+| Records | 8,523 Items |
+| Dashboard Tool | Power BI |
 
-⭐ Top Rated Products / Stores
+### Dataset Includes
 
-📆 Dynamic Date Filtering (Year, Month, Day)
+- Item Type
+- Fat Content
+- Item Visibility
+- Item Weight
+- Outlet Identifier
+- Outlet Size
+- Outlet Type
+- Outlet Location
+- Outlet Establishment Year
+- Sales
+- Rating
 
-📉 Trend Analysis using Line Charts and KPIs
+---
 
-🧠 Business Insights
-The majority of high-rated stores also offer fast delivery.
+# 🛠️ Technologies Used
 
-Certain cities show higher average order values and frequency.
+- Power BI Desktop
+- Power Query
+- DAX
+- Data Modeling
+- Microsoft Excel
 
-Peak order times can be observed based on date and time dimensions.
+---
 
-Popular categories like Groceries and Beverages drive most revenue.
+# ⭐ Dashboard Highlights
 
-📷 Dashboard Preview
-<img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/08bbde12-e3fb-43f7-aabc-303fbdf94861" />
+- Interactive KPI Cards
+- Dynamic Filters
+- Sales Trend Analysis
+- Outlet Performance Analysis
+- Product Category Analysis
+- Customer Rating Analysis
+- Outlet Size Comparison
+- Outlet Location Analysis
 
+---
 
-📥 How to Use
-Download the .pbix file from this repo.
+# 📈 Dashboard KPIs
 
-Open it in Power BI Desktop.
+- 💰 Total Sales
+- 💵 Average Sales
+- 📦 Number of Items
+- ⭐ Average Rating
 
-Explore the dashboard using filters, slicers, and visuals.
+---
 
-💡 Skills Demonstrated
-Data Cleaning & Transformation (Power Query)
+# 📊 Dashboard Features
 
-DAX for custom KPIs
+### Executive KPIs
 
-Time Intelligence using Date Hierarchies
+- Total Sales
+- Average Sales
+- Number of Items
+- Average Customer Rating
 
-Business Dashboard Design
+### Interactive Visualizations
 
-Interactive Reporting & Storytelling
+- Outlet Establishment Trend
+- Outlet Size Distribution
+- Outlet Location Analysis
+- Item Type Performance
+- Fat Content Analysis
+- Outlet Type Comparison
+- Interactive Filters
+- Dynamic KPI Switching
+
+---
+
+# 📈 Key Business Insights
+
+- Total Sales exceeded **$1.20M**.
+- Fruits and Snack Foods generated the highest sales.
+- Tier 3 outlets recorded the highest revenue.
+- Medium-sized outlets contributed the largest share of sales.
+- Regular fat products generated more revenue than low-fat products.
+- Supermarket Type 1 achieved the highest overall sales.
+- Customer ratings remained consistently high with an average rating of **3.9**.
+
+---
+
+# 💡 Business Recommendations
+
+- Expand high-performing Tier 3 outlets.
+- Increase inventory for high-selling product categories.
+- Improve visibility for low-performing products.
+- Focus marketing campaigns on top-performing outlet locations.
+- Optimize outlet expansion using historical sales trends.
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Raw Dataset
+      │
+      ▼
+Power Query
+(Data Cleaning)
+      │
+      ▼
+Data Modeling
+      │
+      ▼
+DAX Measures
+      │
+      ▼
+Interactive Dashboard
+      │
+      ▼
+Business Insights
+```
+
+---
+
+# 💼 Skills Demonstrated
+
+- Power BI
+- DAX
+- Power Query
+- Data Cleaning
+- Data Modeling
+- Dashboard Design
+- Data Visualization
+- KPI Reporting
+- Business Intelligence
+- Retail Analytics
+
+---
+
+# 📁 Repository Structure
+
+```text
+Blinkit-Sales-Analysis-PowerBI
+│
+├── Dashboard
+│   └── Blinkit_Sales_Analysis.pbix
+│
+├── Dataset
+│   └── BlinkIT_Grocery_Data.xlsx
+│
+├── Images
+│   └── Blinkit_Dashboard.png
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 🚀 Future Enhancements
+
+- Sales Forecasting
+- Customer Segmentation
+- Profitability Analysis
+- Regional Sales Dashboard
+- Inventory Optimization
+- Executive Retail Dashboard
+
+---
+
+# 💼 Resume Project Summary
+
+Designed and developed an interactive Blinkit Sales Analysis Dashboard using Power BI, DAX, and Power Query to analyze grocery sales performance, outlet characteristics, inventory distribution, customer ratings, and product category trends. Built KPI reports and interactive dashboards to support data-driven retail decision-making.
+
+---
+
+# 👨‍💻 Author
+
+## Hanumantha B
+
+**Data Analyst | SQL | Python | Power BI | Excel**
+
+### GitHub
+
+https://github.com/hanumanth112
+
+### LinkedIn
+
+https://www.linkedin.com/in/hanumantha-b-673938374
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star on GitHub!
